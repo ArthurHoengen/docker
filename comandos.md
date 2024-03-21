@@ -112,10 +112,27 @@ docker network ls
 *Criar nova rede*
 docker network create --driver (nome do driver) (nome da rede)
 
+*Rede BRIDGE*
+Rede especifica para containers
+
 *Rede NONE*
 Sem interface de rede para o container
 
 *Rede HOST*
 Se conecta a rede do host, tornado desnecessário o mapeamento de porta,
 pois você está na rede do host
-.
+
+**DOCKER COMPOSE**
+Ferramenta de composição de containers
+
+*Docker-compose up*
+Sobe o container
+
+*Docker-compose ps*
+Mostra o que foi criado
+
+*Docker-compose down*
+Derruba o docker compose
+
+*depends_on*
+Faz um arquivo depender do outro, sendo executado apenas depois dele
